@@ -1,0 +1,60 @@
+/* Анімація при наведенні на фотографію */
+.category img {
+    transition: transform 0.3s ease;
+}
+
+.category img:hover {
+    transform: scale(1.1);
+}
+
+/* Додавання рамки до фотографії */
+.category img {
+    border: 2px solid #ddd; /* Колір рамки */
+    border-radius: 5px; /* Закругленість кутів */
+}
+
+/* Опційно: рамка при наведенні */
+.category img:hover {
+    border-color: #666; /* Зміна коліру рамки при наведенні */
+}
+/* Затемнення фотографії при наведенні */
+.category img {
+    transition: opacity 0.3s ease;
+}
+
+.category img:hover {
+    opacity: 0.8; /* Затемнення */
+}
+/* Зміна розміру тексту при наведенні на заголовок */
+.category h2 {
+    transition: font-size 0.3s ease;
+}
+
+.category h2:hover {
+    font-size: 24px; /* Новий розмір тексту */
+}
+/* Зміна фонового кольору навігаційного меню при наведенні */
+nav a {
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555; /* Новий фон */
+} 
+/* Анімація зсуву вгору при наведенні на сірий блок */
+.category {
+    transition: transform 0.3s ease;
+}
+
+.category:hover {
+    transform: translateY(-10px); /* Зсув вгору на 10px */
+}
+/* Анімація зсуву вгору для категорій продуктів */
+.category {
+    transition: transform 0.3s ease;
+}
+
+.category:hover {
+    transform: translateY(-10px); /* Зсув вгору на 10px */
+}
+

@@ -10,10 +10,15 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    transition: background-color 0.3s ease;
 }
 
 h1 {
     border-bottom: 2px solid #fff;
+}
+
+header:hover {
+    background-color: #555; /* Зміна фону при наведенні */
 }
 
 nav {
@@ -62,7 +67,7 @@ main {
 }
 
 .category h2 {
-    transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease, border-bottom 0.3s ease;
     border-bottom: 1px solid #ddd;
     padding-bottom: 5px;
     margin-bottom: 10px;
@@ -77,5 +82,10 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+footer:hover {
+    background-color: #555; /* Зміна фону при наведенні */
 }
 /* Кінець CSS коду */

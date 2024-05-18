@@ -1,60 +1,41 @@
 
+/* Анімація збільшення та затемнення при наведенні на фотографію */
 .category img {
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    border: 2px solid #ddd; /* Колір рамки */
+    border-radius: 5px; /* Закругленість кутів */
 }
 
 .category img:hover {
     transform: scale(1.1);
+    opacity: 0.8; /* Затемнення */
+    border-color: #666; /* Зміна коліру рамки при наведенні */
 }
 
-
-.category img {
-    border: 2px solid #ddd; 
-    border-radius: 5px; 
-}
-
-
-.category img:hover {
-    border-color: #666;
-}
-
-.category img {
-    transition: opacity 0.3s ease;
-}
-
-.category img:hover {
-    opacity: 0.8; 
-}
-
+/* Зміна розміру тексту при наведенні на заголовок */
 .category h2 {
     transition: font-size 0.3s ease;
 }
 
 .category h2:hover {
-    font-size: 24px; 
+    font-size: 24px; /* Новий розмір тексту */
 }
 
+/* Зміна фонового кольору навігаційного меню при наведенні */
 nav a {
     transition: background-color 0.3s ease;
 }
 
 nav a:hover {
-    background-color: #555; 
+    background-color: #555; /* Новий фон */
 } 
 
+/* Анімація зсуву вгору для категорій продуктів */
 .category {
     transition: transform 0.3s ease;
 }
 
 .category:hover {
-    transform: translateY(-10px); 
-}
-
-.category {
-    transition: transform 0.3s ease;
-}
-
-.category:hover {
-    transform: translateY(-10px);
+    transform: translateY(-10px); /* Зсув вгору на 10px */
 }
 

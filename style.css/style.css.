@@ -12,6 +12,10 @@ header {
     text-align: center;
 }
 
+h1 {
+    border-bottom: 2px solid #fff;
+}
+
 nav {
     background-color: #444;
     padding: 10px;
@@ -59,6 +63,9 @@ main {
 
 .category h2 {
     transition: font-size 0.3s ease;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .category:hover {
